@@ -2,46 +2,52 @@ header{
   background: 
     url(images/purpledot.png) left top repeat-y,
     url(images/purpledot.png) right top repeat-y,
-    url(images/goose_shadow.png) 90% bottom no-repeat;
-    
-    
-    background-color: rgb(255, 255, 255, .5);}
+    url(images/goose_shadow.png) 90% bottom no-repeat;   
+    background-color: rgb(255, 255, 255, .5);
+}
   
-body { background-attachment: local;
-  background-attachment: fixed;
-  background-size: 30%;
-  background-image: url('images/blackgoose.png'); 
-  background-repeat: no-repeat;
-  overflow: scroll;
-  
-   background-position: center 100px;
-
-
-
-  background-image: url(images/blackgoose.png);}
+body { 
+	background-attachment: local;
+	background-attachment: fixed;
+	background-size: 30%;
+	background-image: url('images/blackgoose.png'); 
+	background-repeat: no-repeat;
+	overflow: scroll;
+	background-position: center 100px;
+	background-image: url(images/blackgoose.png);
+}
   
   a:visited{
     color:#937393;
   }
+  
   h1{
-  color:#993399;}
+  color:#993399;
+  }
+  
   h2{
     color:#c60
   }
+  
   body{
     background-color: #d2dc9d;
   }
-  a:link{ color: #939;
+  
+  a:link{ color: #993399;
     
   }
+  
   a:hover{
-    background-color:#fff;
       color:#c700f2;
+	  background-color:#fff;
   }
+  
   a:focus:{
      background-color:#fff;
       color:#c700f2;
   }
+  
   a:active{
     color:#ff00ff;
+	background-color: white;
   }
